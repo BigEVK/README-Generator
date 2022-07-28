@@ -5,9 +5,9 @@
 
 https://github.com/BigEVK/README-Generator
 
-<"C:\Users\vanki\projects\README-Generator\Develop\assets\READMEGenerator.mp4">
+<img src="\Develop\assets\READMEGenerator.mp4">
 
-<img src="./Develop/assets/readmeGeneratorScreenShot" width="400" >
+<img src="./Develop/assets/readmeGeneratorScreenShot.png" width="400" >
 
 
 
