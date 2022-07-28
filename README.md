@@ -7,7 +7,7 @@ https://github.com/BigEVK/README-Generator
 
 <img src="./Develop/assets/readmeGeneratorScreenShot.png" width="400" >
 
-<video src="./Develop/assets/READMEGenerator.mp4">
+<video src="./Develop/assets/READMEGenerator.mp4" >
 
 
 
