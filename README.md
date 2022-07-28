@@ -3,4 +3,11 @@
 - Generating a new README file for every project can be frustrating. Use this README file gnerator to fill in pertinent questions relevant to every project you will make.
 - You can always add more information as you like, but the basic structure will be there to make a beautiful, professional, README every time.
 
+
+<"C:\Users\vanki\projects\README-Generator\Develop\assets\READMEGenerator.mp4">
+
+<img src="C:\Users\vanki\projects\README-Generator\Develop\assets\readmeGeneratorScreenShot.png" width="400" >
+
+
+
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
