@@ -137,7 +137,7 @@ function writeToFile(fileName, data) {
 // Function call to initialize app
 // init();
 questions()
-    // .then(answers => console.log(answers))
+    .then(answers => console.log(answers))
     .then(pageIndex => {
         return generateMarkdown(pageIndex);
     })
