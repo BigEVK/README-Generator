@@ -109,7 +109,13 @@ const questions = () => {
                     console.log('Please enter your email address.');
                 }
             }
-        }, 
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Please choose a license type. (Required)',
+            choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD", "none"]
+        } 
     ])
 } 
 
@@ -118,7 +124,7 @@ function writeToFile(fileName, data) {
 // const generateMarkdown = fileContent => {
     
     return new Promise((resolve, reject) => {
-      fs.writeTofile('.README.me', fileContent, err => {
+      fs.writeFile(fileName, data, err => {
         if (err) {
           reject(err);
           return;
@@ -137,10 +143,13 @@ function writeToFile(fileName, data) {
 // Function call to initialize app
 // init();
 questions()
-    .then(answers => console.log(answers))
-    .then(pageIndex => {
-        return generateMarkdown(pageIndex);
+    .then(answers => {
+        console.log(answers)
+        return writeToFile("readme.md",generateMarkdown(answers));
     })
+    // .then(pageIndex => {console.log(pageIndex);
+    //     return writeToFile("readme.md",generateMarkdown(pageIndex));
+    // })
     .catch(err => {
         console.log(err);
     });
