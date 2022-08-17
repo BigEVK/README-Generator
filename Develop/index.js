@@ -18,7 +18,7 @@ const questions = () => {
                     return true;
                 } else {
                     console.log('Please enter the Title of your project.');
-                    return fasle;
+                    return false;
                 }
             }
         },

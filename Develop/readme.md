@@ -1,7 +1,7 @@
-# erererererer
+# Generating a README
   # Description ![license](https://img.shields.io/badge/license-MIT-blue.svg)
      
-  - rtehrwthrtswh
+  - Generates a wonderful README
   # Table of Contents
   - Description
   - Installation Instructions
@@ -11,17 +11,17 @@
   - GitHub Username
   - E-Mail 
   # Installation Instructions
-  - rwthrtsghbn
+  - none
   # Usage Information
-  - rthrtyghb
+  - none
   # Contribution Guidlines
   - undefined
   # Test Instructions
-  - srhtrs
+  - none
   # GitHub Username
-  - hsrhrst
+  - Me@github.git
   # E-Mail
-  - srhjjrs
+  - me@me.com
 
   # License
     This project is covered under MIT
